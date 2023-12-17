@@ -1,0 +1,420 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Unbounded', sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #F4A261; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #E9C46A; 
+}
+
+
+/* Navbar */
+header {
+  background:
+  linear-gradient(to right,rgb(0 0 0 / 0.5),
+  rgb(0 0 0 / 0)
+  ), url("images/back.jpg");
+  height: 750px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  padding-top: 50px;
+  font-weight: bolder;
+}
+
+.navbar {
+  height: 20px;
+  padding: 0 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  gap: 40px;
+  color: wheat;
+  font-weight: bolder;
+}
+
+.navbar_brand {
+  cursor: pointer;
+  font-size: 35px;
+  font-weight: 800;
+  color:white;
+
+}
+
+.navbar-menu {
+  display: flex;
+
+}
+
+.navbar-item {
+  font-size: 18px;
+
+
+}
+
+a:hover {
+  color:#F4A261;
+}
+
+
+.button-28 {
+  background-color: transparent;
+  border: 2px solid orange;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: orange;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+
+
+}
+
+
+
+.button-28:hover {
+  color: #fff;
+  background-color: orange;
+
+}
+
+.button-28:active {
+  box-shadow: none;
+
+}
+
+.text {
+  font-size: 40px;
+  color: #fff;
+  margin-left: 60px;
+  margin-top: 50px;
+}
+
+
+h6 {
+  margin-top: 80px;
+  color: #E9C46A;
+}
+
+.row {
+  position: relative;
+  display: flex;
+}
+
+
+
+.button2 {
+  background-color: transparent;
+  color: #F4A261;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 16px 24px;
+}
+
+
+
+.button2:hover {
+  color: orange;
+  text-decoration: 8px underline;
+
+}
+
+/* Book Section */
+
+.book-section-info,
+.img-fluid {
+  padding-top: 40px;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+.example-item h5 {
+  padding-top: 80px;
+  font-size: 30px;
+  color: black;
+}
+
+.example-item p {
+  padding-top: 30px;
+  padding-bottom: 1px;
+}
+
+.example-item {
+
+  height: 700px;
+  width: 1000px;
+  left: 20%;
+  font-size: 18px;
+  color: #717275;
+  border-bottom: 5px dotted #717275;
+}
+
+.text2 {
+  text-align: center;
+}
+
+.text2 h2 {
+  font-size: 39px;
+}
+
+.text2 h6 {
+  font-size: 29px;
+}
+
+strong {
+  color: gray;
+}
+
+.blockquote {
+  background-color: #f0f8ff;
+  width: 800px;
+  height: 200px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  padding: 80px 40px 40px 40px;
+  text-align: center;
+  margin-left: 100px;
+  font-weight: 900;
+  color: black;
+}
+
+.row {
+  display: flex;
+  gap: 20px;
+
+}
+
+.container2 {
+  display: flex;
+
+}
+
+/* Author Section */
+.author-section {
+  background-image: url('./images/circle-scatter-haikei.png');
+  background-repeat: no-repeat;
+  position: relative;
+
+
+}
+
+.author-image {
+  border: 10px solid #E9C46A;
+  ;
+  border-radius: 100%;
+  display: block;
+  margin: auto;
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+}
+
+.col1 {
+  padding-left: 350px;
+  padding-top: 60px;
+
+}
+
+
+.container4 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: #E9C46A;
+}
+
+.description {
+  text-align: center;
+  width: 43%;
+}
+
+.clientImage {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+.clientImage img {
+  width: 40px;
+  border-radius: 17px;
+}
+
+
+/* Review Section */
+.reviewSection {
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.reviewItem {
+  width: 400px;
+  padding: 10px;
+  height: 280px;
+  margin: 1rem;
+  border-radius: 10px;
+  background:
+  linear-gradient(to right,rgb(0 0 0 / 0.5),
+  rgb(0 0 0 / 0)
+  ), url("images/back.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.reviewItem:hover {
+  border-color: white;
+  transform: scale(1.01);
+}
+
+.top {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.top ul {
+  display: flex;
+  list-style: none;
+  color: black;
+}
+
+
+
+article p {
+  font-size: 15px;
+  font-weight: 200;
+  color: #f0f8ff;
+  padding: 10px;
+}
+
+
+/* Footer */
+footer{
+  width: 100%;
+  background-color:#E9C46A;
+  padding: 50px 0 30px;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.row_footer{
+  width: 85%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.col_footer{
+  flex-basis: 25%;
+  padding: 10px;
+}
+
+
+.col_footer:nth-child(2), .col_footer:nth-child(3){
+  flex-basis: 15%;
+}
+.footer_logo{
+  width: 80px;
+  position: relative;
+  top: -23px;
+  left: -20px;
+}
+.footer_about{
+  position: relative;
+  top: -23px;
+}
+.col_footer h3{
+  width: fit-content;
+  margin-bottom: 40px;
+  position: relative;
+}
+.footer_email{
+  width: fit-content;
+  border-bottom: 1px solid #E9C46A;
+  margin: 20px 0;
+}
+.col_footer ul li{
+  list-style: none;
+  margin-bottom: 12px;
+}
+.col_footer ul li a{
+  text-decoration: none;
+  color:wheat;
+}
+.col_footer form{
+  padding-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid wheat;
+  margin-bottom: 50px;
+}
+.col_footer form .icon{
+  font-size: 18px;
+  margin-right: 10px;
+}
+.col_footer form input{
+  width: 100%;
+  background: transparent;
+  color: #ccc;
+  border: 0;
+  outline: none;
+}
+.col_footer form button{
+  background: transparent;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+}
+.col_footer form button .icon_right{
+  font-size: 16px;
+  color: #ccc;
+}
